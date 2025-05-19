@@ -67,7 +67,7 @@
             const diet = document.getElementById("diet").value;
             const recipeKey = `${cuisine}_${diet}`;
 
-            fetch("recipes.json")
+            fetch("/root/recipes.json") // Adjusted path for correct fetching
                 .then(response => response.json())
                 .then(data => {
                     const recipe = data.recipes[recipeKey];
