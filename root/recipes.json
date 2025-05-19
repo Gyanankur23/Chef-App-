@@ -1,0 +1,645 @@
+{
+  "recipes": {
+    "American_Diabetese": {
+      "title": "Grilled Chicken with Roasted Veggies",
+      "ingredients": ["Chicken breast", "Bell peppers", "Zucchini", "Olive oil", "Herbs"],
+      "instructions": "Marinate chicken with olive oil and herbs. Grill until fully cooked. Roast bell peppers and zucchini. Serve hot.",
+      "time_to_prepare": "35 minutes",
+      "calories": "320 kcal",
+      "nutritional_facts": "Protein: 40g, Carbs: 10g, Fat: 12g"
+    },
+    "American_Gluten free": {
+      "title": "Quinoa Salad with Grilled Chicken",
+      "ingredients": ["Quinoa", "Grilled chicken", "Cherry tomatoes", "Spinach", "Lemon dressing"],
+      "instructions": "Cook quinoa. Grill chicken. Toss with spinach, cherry tomatoes, and lemon dressing.",
+      "time_to_prepare": "25 minutes",
+      "calories": "350 kcal",
+      "nutritional_facts": "Protein: 35g, Carbs: 20g, Fat: 10g"
+    },
+    "American_Halal": {
+      "title": "Halal Beef Steak with Garlic Butter",
+      "ingredients": ["Halal-certified beef steak", "Garlic", "Butter", "Salt", "Pepper"],
+      "instructions": "Season beef with salt and pepper. Grill with garlic butter. Serve hot.",
+      "time_to_prepare": "30 minutes",
+      "calories": "450 kcal",
+      "nutritional_facts": "Protein: 50g, Carbs: 5g, Fat: 25g"
+    },
+    "American_Keto": {
+      "title": "Keto Avocado Chicken Salad",
+      "ingredients": ["Grilled chicken", "Avocado", "Spinach", "Olive oil", "Lemon juice"],
+      "instructions": "Mix chopped chicken, avocado, spinach, and olive oil with lemon juice.",
+      "time_to_prepare": "20 minutes",
+      "calories": "400 kcal",
+      "nutritional_facts": "Protein: 35g, Carbs: 8g, Fat: 30g"
+    },
+    "American_Kosher": {
+      "title": "Kosher Honey Glazed Salmon",
+      "ingredients": ["Salmon", "Honey", "Soy sauce (Kosher-certified)", "Garlic", "Olive oil"],
+      "instructions": "Marinate salmon with honey, soy sauce, and garlic. Bake until golden.",
+      "time_to_prepare": "35 minutes",
+      "calories": "380 kcal",
+      "nutritional_facts": "Protein: 42g, Carbs: 15g, Fat: 18g"
+    },
+    "American_Lactose Intolerance": {
+      "title": "Dairy-Free Chicken Stir Fry",
+      "ingredients": ["Chicken", "Broccoli", "Garlic", "Soy sauce", "Sesame oil"],
+      "instructions": "Sauté chicken, broccoli, and garlic in soy sauce and sesame oil.",
+      "time_to_prepare": "30 minutes",
+      "calories": "320 kcal",
+      "nutritional_facts": "Protein: 35g, Carbs: 10g, Fat: 12g"
+    },
+    "American_Paleo": {
+      "title": "Paleo Sweet Potato & Beef Hash",
+      "ingredients": ["Ground beef", "Sweet potatoes", "Onions", "Garlic", "Paprika"],
+      "instructions": "Cook beef with onions, garlic, and paprika. Add roasted sweet potatoes.",
+      "time_to_prepare": "35 minutes",
+      "calories": "400 kcal",
+      "nutritional_facts": "Protein: 38g, Carbs: 25g, Fat: 18g"
+    },
+    "American_Vegan": {
+      "title": "Vegan Black Bean Burger",
+      "ingredients": ["Black beans", "Oats", "Mushrooms", "Lettuce", "Tomato"],
+      "instructions": "Mash black beans and mushrooms. Mix with oats, form patties, and grill.",
+      "time_to_prepare": "30 minutes",
+      "calories": "290 kcal",
+      "nutritional_facts": "Protein: 15g, Carbs: 40g, Fat: 8g"
+    },
+    "American_Vegetarian": {
+      "title": "Vegetarian Stuffed Bell Peppers",
+      "ingredients": ["Bell peppers", "Quinoa", "Tomatoes", "Spinach", "Olive oil"],
+      "instructions": "Stuff bell peppers with quinoa and sautéed vegetables. Bake until tender.",
+      "time_to_prepare": "40 minutes",
+      "calories": "340 kcal",
+      "nutritional_facts": "Protein: 18g, Carbs: 45g, Fat: 6g"
+    },
+    "American_None": {
+      "title": "Classic American Cheeseburger",
+      "ingredients": ["Beef patty", "Cheese", "Lettuce", "Tomato", "Burger bun"],
+      "instructions": "Grill beef patty, top with cheese, serve on bun with lettuce and tomato.",
+      "time_to_prepare": "30 minutes",
+      "calories": "450 kcal",
+      "nutritional_facts": "Protein: 40g, Carbs: 35g, Fat: 20g"
+    },
+    "Chinese_Diabetese": {
+      "title": "Steamed Fish with Ginger & Soy Sauce",
+      "ingredients": ["Fish fillet", "Ginger", "Soy sauce", "Scallions", "Sesame oil"],
+      "instructions": "Steam fish with ginger and soy sauce. Garnish with scallions.",
+      "time_to_prepare": "25 minutes",
+      "calories": "280 kcal",
+      "nutritional_facts": "Protein: 35g, Carbs: 5g, Fat: 12g"
+    },
+    "Chinese_Gluten free": {
+      "title": "Gluten-Free Chicken & Broccoli Stir Fry",
+      "ingredients": ["Chicken breast", "Broccoli", "Garlic", "Gluten-free soy sauce", "Sesame oil"],
+      "instructions": "Stir-fry chicken and broccoli with garlic and gluten-free soy sauce.",
+      "time_to_prepare": "25 minutes",
+      "calories": "310 kcal",
+      "nutritional_facts": "Protein: 38g, Carbs: 10g, Fat: 8g"
+    },
+    "Chinese_Halal": {
+      "title": "Halal Beef & Green Beans",
+      "ingredients": ["Halal-certified beef", "Green beans", "Garlic", "Soy sauce", "Ginger"],
+      "instructions": "Sauté beef with garlic, ginger, and soy sauce. Add green beans.",
+      "time_to_prepare": "30 minutes",
+      "calories": "350 kcal",
+      "nutritional_facts": "Protein: 45g, Carbs: 12g, Fat: 15g"
+    },
+    "Chinese_Keto": {
+      "title": "Keto-Friendly Beef Stir Fry",
+      "ingredients": ["Beef strips", "Broccoli", "Garlic", "Soy sauce", "Sesame oil"],
+      "instructions": "Sauté beef in sesame oil, add garlic and broccoli, stir-fry with soy sauce.",
+      "time_to_prepare": "20 minutes",
+      "calories": "340 kcal",
+      "nutritional_facts": "Protein: 40g, Carbs: 8g, Fat: 15g"
+    },
+    "Chinese_Vegan": {
+      "title": "Tofu & Bok Choy Stir Fry",
+      "ingredients": ["Tofu", "Bok choy", "Garlic", "Soy sauce", "Ginger"],
+      "instructions": "Sauté garlic and ginger, add tofu and bok choy, stir-fry until tender.",
+      "time_to_prepare": "15 minutes",
+      "calories": "280 kcal",
+      "nutritional_facts": "Protein: 15g, Carbs: 25g, Fat: 7g"
+    },
+    "Chinese_Lactose Intolerance": {
+      "title": "Dairy-Free Mapo Tofu",
+      "ingredients": ["Firm tofu", "Sichuan pepper", "Garlic", "Soy sauce", "Chili paste"],
+      "instructions": "Cube tofu, sauté with garlic, soy sauce, and chili paste. Serve over rice.",
+      "time_to_prepare": "30 minutes",
+      "calories": "320 kcal",
+      "nutritional_facts": "Protein: 20g, Carbs: 25g, Fat: 12g"
+    },
+    "Chinese_Paleo": {
+      "title": "Paleo Chicken & Cashew Stir Fry",
+      "ingredients": ["Chicken", "Cashews", "Broccoli", "Garlic", "Coconut aminos"],
+      "instructions": "Sauté chicken, cashews, and broccoli with garlic in coconut aminos.",
+      "time_to_prepare": "25 minutes",
+      "calories": "350 kcal",
+      "nutritional_facts": "Protein: 40g, Carbs: 12g, Fat: 18g"
+    },
+    "Chinese_Vegan": {
+      "title": "Vegan Stir-Fried Eggplant",
+      "ingredients": ["Eggplant", "Garlic", "Soy sauce", "Ginger", "Sesame oil"],
+      "instructions": "Slice eggplant, sauté with garlic, ginger, and soy sauce until tender.",
+      "time_to_prepare": "20 minutes",
+      "calories": "280 kcal",
+      "nutritional_facts": "Protein: 5g, Carbs: 20g, Fat: 8g"
+    },
+    "Chinese_Vegetarian": {
+      "title": "Vegetarian Bok Choy & Mushroom Stir Fry",
+      "ingredients": ["Bok choy", "Mushrooms", "Garlic", "Soy sauce", "Sesame seeds"],
+      "instructions": "Sauté bok choy and mushrooms with garlic and soy sauce. Garnish with sesame seeds.",
+      "time_to_prepare": "15 minutes",
+      "calories": "250 kcal",
+      "nutritional_facts": "Protein: 10g, Carbs: 18g, Fat: 6g"
+    },
+    "Chinese_None": {
+      "title": "Classic Chinese Kung Pao Chicken",
+      "ingredients": ["Chicken", "Peanuts", "Chili peppers", "Soy sauce", "Garlic"],
+      "instructions": "Stir-fry chicken with peanuts, garlic, and soy sauce. Add chili peppers for spice.",
+      "time_to_prepare": "30 minutes",
+      "calories": "400 kcal",
+      "nutritional_facts": "Protein: 45g, Carbs: 20g, Fat: 15g"
+    },
+    "French_Diabetese": {
+      "title": "Grilled Salmon with Lemon Butter Sauce",
+      "ingredients": ["Salmon", "Lemon", "Butter", "Garlic", "Parsley"],
+      "instructions": "Season salmon and grill until cooked. Melt butter with lemon and garlic, drizzle over salmon. Serve hot.",
+      "time_to_prepare": "30 minutes",
+      "calories": "350 kcal",
+      "nutritional_facts": "Protein: 42g, Carbs: 5g, Fat: 18g"
+    },
+    "French_Gluten free": {
+      "title": "Gluten-Free Ratatouille",
+      "ingredients": ["Zucchini", "Bell peppers", "Eggplant", "Tomato sauce", "Olive oil"],
+      "instructions": "Slice vegetables, layer in a dish, bake with olive oil and tomato sauce.",
+      "time_to_prepare": "45 minutes",
+      "calories": "250 kcal",
+      "nutritional_facts": "Protein: 8g, Carbs: 12g, Fat: 15g"
+    },
+    "French_Halal": {
+      "title": "Halal Coq au Vin",
+      "ingredients": ["Halal-certified chicken", "Carrots", "Mushrooms", "Garlic", "Tomato paste"],
+      "instructions": "Sauté chicken with mushrooms, garlic, and tomato paste. Slow-cook with carrots until tender.",
+      "time_to_prepare": "50 minutes",
+      "calories": "420 kcal",
+      "nutritional_facts": "Protein: 45g, Carbs: 15g, Fat: 20g"
+    },
+    "French_Keto": {
+      "title": "Keto Cheese Omelette",
+      "ingredients": ["Eggs", "Cheese", "Butter", "Spinach", "Salt"],
+      "instructions": "Beat eggs, cook in butter, add cheese and spinach, fold omelette and serve hot.",
+      "time_to_prepare": "15 minutes",
+      "calories": "320 kcal",
+      "nutritional_facts": "Protein: 22g, Carbs: 3g, Fat: 25g"
+    },
+    "French_Kosher": {
+      "title": "Kosher Herb-Crusted Fish",
+      "ingredients": ["Kosher-certified fish", "Herbs", "Olive oil", "Garlic", "Lemon"],
+      "instructions": "Season fish with herbs and garlic, bake until flaky. Serve with a drizzle of lemon juice.",
+      "time_to_prepare": "40 minutes",
+      "calories": "380 kcal",
+      "nutritional_facts": "Protein: 45g, Carbs: 6g, Fat: 18g"
+    },
+    "French_Lactose Intolerance": {
+      "title": "Dairy-Free French Onion Soup",
+      "ingredients": ["Onions", "Vegetable broth", "Garlic", "Olive oil", "French bread"],
+      "instructions": "Caramelize onions, simmer in vegetable broth, serve with toasted French bread.",
+      "time_to_prepare": "45 minutes",
+      "calories": "360 kcal",
+      "nutritional_facts": "Protein: 8g, Carbs: 45g, Fat: 10g"
+    },
+    "French_Paleo": {
+      "title": "Paleo Grilled Steak with Vegetables",
+      "ingredients": ["Grass-fed steak", "Zucchini", "Tomatoes", "Olive oil", "Garlic"],
+      "instructions": "Season steak and grill, roast zucchini and tomatoes, serve together.",
+      "time_to_prepare": "35 minutes",
+      "calories": "400 kcal",
+      "nutritional_facts": "Protein: 50g, Carbs: 10g, Fat: 20g"
+    },
+    "French_Vegan": {
+      "title": "Vegan Ratatouille",
+      "ingredients": ["Eggplant", "Bell peppers", "Tomatoes", "Garlic", "Olive oil"],
+      "instructions": "Slice vegetables, layer in a dish, bake with garlic and olive oil until tender.",
+      "time_to_prepare": "50 minutes",
+      "calories": "290 kcal",
+      "nutritional_facts": "Protein: 10g, Carbs: 38g, Fat: 5g"
+    },
+    "French_Vegetarian": {
+      "title": "Vegetarian Quiche with Spinach",
+      "ingredients": ["Eggs", "Spinach", "Cheese", "Onions", "Whole wheat crust"],
+      "instructions": "Whisk eggs, mix with sautéed spinach and cheese, bake in whole wheat crust.",
+      "time_to_prepare": "45 minutes",
+      "calories": "320 kcal",
+      "nutritional_facts": "Protein: 25g, Carbs: 40g, Fat: 12g"
+    },
+    "French_None": {
+      "title": "Classic French Beef Bourguignon",
+      "ingredients": ["Beef", "Carrots", "Onions", "Garlic", "Tomato paste"],
+      "instructions": "Brown beef with onions, garlic, and tomato paste, slow-cook with carrots until tender.",
+      "time_to_prepare": "1 hour",
+      "calories": "500 kcal",
+      "nutritional_facts": "Protein: 55g, Carbs: 15g, Fat: 25g"
+    },
+    "Indian_Diabetese": {
+      "title": "Masoor Dal with Stir-Fried Vegetables",
+      "ingredients": ["Red lentils", "Carrots", "Spinach", "Turmeric", "Ghee"],
+      "instructions": "Boil lentils with turmeric and ghee. Stir-fry carrots and spinach. Serve hot with dal.",
+      "time_to_prepare": "40 minutes",
+      "calories": "310 kcal",
+      "nutritional_facts": "Protein: 18g, Carbs: 35g, Fat: 7g"
+    },
+    "Indian_Gluten free": {
+      "title": "Gluten-Free Roti with Vegetable Curry",
+      "ingredients": ["Gluten-free flour", "Mixed vegetables", "Tomatoes", "Indian spices", "Olive oil"],
+      "instructions": "Prepare gluten-free roti, cook vegetables in a curry sauce, serve together.",
+      "time_to_prepare": "35 minutes",
+      "calories": "350 kcal",
+      "nutritional_facts": "Protein: 12g, Carbs: 45g, Fat: 8g"
+    },
+    "Indian_Halal": {
+      "title": "Halal Chicken Biryani",
+      "ingredients": ["Halal-certified chicken", "Basmati rice", "Yogurt", "Spices", "Onions"],
+      "instructions": "Marinate chicken in yogurt and spices. Cook with rice and caramelized onions.",
+      "time_to_prepare": "1 hour",
+      "calories": "500 kcal",
+      "nutritional_facts": "Protein: 40g, Carbs: 60g, Fat: 15g"
+    },
+    "Indian_Keto": {
+      "title": "Paneer Tikka (Keto-Friendly)",
+      "ingredients": ["Paneer", "Greek Yogurt", "Indian Spices", "Bell Peppers", "Lemon"],
+      "instructions": "Marinate paneer in yogurt and spices. Grill with bell peppers and serve with lemon.",
+      "time_to_prepare": "25 minutes",
+      "calories": "280 kcal",
+      "nutritional_facts": "Protein: 20g, Carbs: 5g, Fat: 18g"
+    },
+    "Indian_Kosher": {
+      "title": "Kosher Dal Tadka",
+      "ingredients": ["Lentils", "Garlic", "Cumin", "Tomatoes", "Ghee"],
+      "instructions": "Cook lentils, temper with garlic and spices, serve hot.",
+      "time_to_prepare": "30 minutes",
+      "calories": "320 kcal",
+      "nutritional_facts": "Protein: 15g, Carbs: 35g, Fat: 10g"
+    },
+    "Indian_Lactose Intolerance": {
+      "title": "Dairy-Free Vegetable Korma",
+      "ingredients": ["Mixed vegetables", "Coconut milk", "Garlic", "Turmeric", "Cashews"],
+      "instructions": "Blend cashews and coconut milk for sauce, cook with vegetables and spices.",
+      "time_to_prepare": "40 minutes",
+      "calories": "370 kcal",
+      "nutritional_facts": "Protein: 10g, Carbs: 40g, Fat: 12g"
+    },
+    "Indian_Paleo": {
+      "title": "Paleo Lamb Curry",
+      "ingredients": ["Lamb", "Tomatoes", "Indian spices", "Coconut oil", "Garlic"],
+      "instructions": "Slow-cook lamb with tomatoes, garlic, and spices in coconut oil.",
+      "time_to_prepare": "50 minutes",
+      "calories": "450 kcal",
+      "nutritional_facts": "Protein: 50g, Carbs: 15g, Fat: 20g"
+    },
+    "Indian_Vegan": {
+      "title": "Vegan Chana Masala",
+      "ingredients": ["Chickpeas", "Tomatoes", "Onions", "Garlic", "Indian spices"],
+      "instructions": "Cook chickpeas in tomato sauce with onions, garlic, and spices. Serve hot.",
+      "time_to_prepare": "35 minutes",
+      "calories": "290 kcal",
+      "nutritional_facts": "Protein: 15g, Carbs: 40g, Fat: 6g"
+    },
+    "Indian_Vegetarian": {
+      "title": "Vegetarian Baingan Bharta",
+      "ingredients": ["Eggplant", "Tomatoes", "Garlic", "Onions", "Indian spices"],
+      "instructions": "Roast eggplant, mash with tomatoes and spices, cook until tender.",
+      "time_to_prepare": "40 minutes",
+      "calories": "310 kcal",
+      "nutritional_facts": "Protein: 8g, Carbs: 35g, Fat: 7g"
+    },
+    "Indian_None": {
+      "title": "Classic Indian Butter Chicken",
+      "ingredients": ["Chicken", "Tomatoes", "Cream", "Indian spices", "Garlic"],
+      "instructions": "Cook chicken in tomato-based sauce with cream and spices, serve hot.",
+      "time_to_prepare": "45 minutes",
+      "calories": "480 kcal",
+      "nutritional_facts": "Protein: 45g, Carbs: 20g, Fat: 25g"
+    },
+    "Italian_Diabetese": {
+      "title": "Grilled Salmon with Pesto",
+      "ingredients": ["Salmon", "Basil", "Garlic", "Olive oil", "Lemon"],
+      "instructions": "Grill salmon, blend basil with garlic and olive oil for pesto, serve together.",
+      "time_to_prepare": "30 minutes",
+      "calories": "350 kcal",
+      "nutritional_facts": "Protein: 42g, Carbs: 5g, Fat: 18g"
+    },
+    "Italian_Gluten free": {
+      "title": "Gluten-Free Zucchini Pasta",
+      "ingredients": ["Zucchini noodles", "Tomato sauce", "Garlic", "Olive oil", "Parmesan"],
+      "instructions": "Sauté zucchini noodles with tomato sauce, garlic, and olive oil. Sprinkle Parmesan before serving.",
+      "time_to_prepare": "25 minutes",
+      "calories": "320 kcal",
+      "nutritional_facts": "Protein: 12g, Carbs: 30g, Fat: 10g"
+    },
+    "Italian_Halal": {
+      "title": "Halal Chicken Parmesan",
+      "ingredients": ["Halal-certified chicken breast", "Tomato sauce", "Mozzarella", "Olive oil", "Basil"],
+      "instructions": "Coat chicken in tomato sauce, top with mozzarella, bake until golden, garnish with basil.",
+      "time_to_prepare": "40 minutes",
+      "calories": "450 kcal",
+      "nutritional_facts": "Protein: 50g, Carbs: 25g, Fat: 15g"
+    },
+    "Italian_Keto": {
+      "title": "Keto Italian Meatballs",
+      "ingredients": ["Ground beef", "Eggs", "Parmesan", "Garlic", "Tomato paste"],
+      "instructions": "Mix beef, eggs, Parmesan, and garlic. Shape into meatballs, bake, and serve with tomato paste.",
+      "time_to_prepare": "35 minutes",
+      "calories": "380 kcal",
+      "nutritional_facts": "Protein: 45g, Carbs: 5g, Fat: 20g"
+    },
+    "Italian_Kosher": {
+      "title": "Kosher Baked Eggplant Parmesan",
+      "ingredients": ["Eggplant", "Kosher tomato sauce", "Mozzarella", "Garlic", "Olive oil"],
+      "instructions": "Layer eggplant slices with tomato sauce and mozzarella, bake until golden.",
+      "time_to_prepare": "45 minutes",
+      "calories": "350 kcal",
+      "nutritional_facts": "Protein: 20g, Carbs: 30g, Fat: 15g"
+    },
+    "Italian_Lactose Intolerance": {
+      "title": "Dairy-Free Italian Mushroom Risotto",
+      "ingredients": ["Arborio rice", "Mushrooms", "Garlic", "Olive oil", "Vegetable broth"],
+      "instructions": "Sauté mushrooms and garlic, gradually add vegetable broth while cooking Arborio rice.",
+      "time_to_prepare": "50 minutes",
+      "calories": "320 kcal",
+      "nutritional_facts": "Protein: 10g, Carbs: 40g, Fat: 6g"
+    },
+    "Italian_Paleo": {
+      "title": "Paleo Italian Stuffed Peppers",
+      "ingredients": ["Bell peppers", "Ground turkey", "Tomatoes", "Garlic", "Olive oil"],
+      "instructions": "Stuff bell peppers with seasoned ground turkey and tomatoes, bake until tender.",
+      "time_to_prepare": "40 minutes",
+      "calories": "350 kcal",
+      "nutritional_facts": "Protein: 40g, Carbs: 12g, Fat: 10g"
+    },
+    "Italian_Vegan": {
+      "title": "Vegan Tomato & Basil Pasta",
+      "ingredients": ["Whole wheat pasta", "Tomatoes", "Garlic", "Basil", "Olive oil"],
+      "instructions": "Cook pasta, sauté garlic and tomatoes, toss with basil and olive oil, serve hot.",
+      "time_to_prepare": "30 minutes",
+      "calories": "320 kcal",
+      "nutritional_facts": "Protein: 12g, Carbs: 50g, Fat: 6g"
+    },
+    "Italian_Vegetarian": {
+      "title": "Vegetarian Italian Minestrone Soup",
+      "ingredients": ["Tomatoes", "Carrots", "Zucchini", "Beans", "Vegetable broth"],
+      "instructions": "Simmer vegetables and beans in vegetable broth until fully cooked.",
+      "time_to_prepare": "40 minutes",
+      "calories": "290 kcal",
+      "nutritional_facts": "Protein: 15g, Carbs: 45g, Fat: 5g"
+    },
+    "Italian_None": {
+      "title": "Classic Italian Spaghetti Carbonara",
+      "ingredients": ["Spaghetti", "Eggs", "Parmesan", "Bacon", "Black pepper"],
+      "instructions": "Cook spaghetti, mix with eggs and Parmesan, toss with crispy bacon, season with black pepper.",
+      "time_to_prepare": "30 minutes",
+      "calories": "500 kcal",
+      "nutritional_facts": "Protein: 35g, Carbs: 60g, Fat: 18g"
+    },
+    "Japanese_Diabetese": { "title": "Grilled Miso Salmon", "ingredients": ["Salmon", "Miso paste", "Soy sauce (low sodium)", "Ginger", "Sesame seeds"], "instructions": "Marinate salmon in miso paste, soy sauce, and ginger. Grill until fully cooked. Garnish with sesame seeds and serve.", "time_to_prepare": "30 minutes", "calories": "320 kcal", "nutritional_facts": "Protein: 40g, Carbs: 8g, Fat: 15g" }, "Japanese_Gluten free": { "title": "Gluten-Free Sushi Bowl", "ingredients": ["Sushi rice", "Salmon", "Avocado", "Cucumber", "Tamari (gluten-free soy sauce)"], "instructions": "Cook sushi rice, slice salmon and avocado, mix with cucumber, drizzle tamari over the bowl.", "time_to_prepare": "25 minutes", "calories": "350 kcal", "nutritional_facts": "Protein: 25g, Carbs: 40g, Fat: 12g" }, "Japanese_Halal": { "title": "Halal Chicken Teriyaki", "ingredients": ["Halal-certified chicken", "Soy sauce", "Ginger", "Garlic", "Brown sugar"], "instructions": "Sauté chicken with garlic and ginger, add soy sauce and brown sugar. Simmer until thickened.", "time_to_prepare": "35 minutes", "calories": "400 kcal", "nutritional_facts": "Protein: 45g, Carbs: 30g, Fat: 10g" }, "Japanese_Keto": { "title": "Keto Japanese Egg Drop Soup", "ingredients": ["Eggs", "Chicken broth", "Ginger", "Green onions", "Sesame oil"], "instructions": "Boil broth, whisk in eggs gently, add ginger and green onions. Drizzle sesame oil before serving.", "time_to_prepare": "15 minutes", "calories": "250 kcal", "nutritional_facts": "Protein: 22g, Carbs: 3g, Fat: 18g" }, "Japanese_Kosher": { "title": "Kosher Miso Soup", "ingredients": ["Miso paste (Kosher-certified)", "Tofu", "Seaweed", "Green onions", "Sesame seeds"], "instructions": "Boil water, dissolve miso paste, add tofu and seaweed, garnish with green onions and sesame seeds.", "time_to_prepare": "20 minutes", "calories": "200 kcal", "nutritional_facts": "Protein: 15g, Carbs: 10g, Fat: 6g" }, "Japanese_Lactose Intolerance": { "title": "Dairy-Free Japanese Stir Fry", "ingredients": ["Chicken", "Bok choy", "Soy sauce", "Garlic", "Sesame oil"], "instructions": "Sauté chicken with garlic, add bok choy and soy sauce, cook until tender.", "time_to_prepare": "25 minutes", "calories": "320 kcal", "nutritional_facts": "Protein: 38g, Carbs: 8g, Fat: 12g" }, "Japanese_Paleo": { "title": "Paleo Japanese Beef & Broccoli", "ingredients": ["Beef strips", "Broccoli", "Garlic", "Coconut aminos", "Sesame oil"], "instructions": "Sauté beef with garlic, add broccoli and coconut aminos, serve hot.", "time_to_prepare": "30 minutes", "calories": "340 kcal", "nutritional_facts": "Protein: 45g, Carbs: 12g, Fat: 15g" }, "Japanese_Vegan": { "title": "Vegan Miso Noodle Soup", "ingredients": ["Rice noodles", "Miso paste", "Seaweed", "Mushrooms", "Tofu"], "instructions": "Boil water, dissolve miso paste, cook noodles, add mushrooms and tofu, serve warm.", "time_to_prepare": "35 minutes", "calories": "290 kcal", "nutritional_facts": "Protein: 12g, Carbs: 45g, Fat: 5g" }, "Japanese_Vegetarian": { "title": "Vegetarian Japanese Curry", "ingredients": ["Potatoes", "Carrots", "Japanese curry paste", "Onions", "Rice"], "instructions": "Sauté onions, carrots, and potatoes with curry paste, simmer until thick. Serve with rice.", "time_to_prepare": "40 minutes", "calories": "360 kcal", "nutritional_facts": "Protein: 10g, Carbs: 50g, Fat: 8g" }, "Japanese_None": { "title": "Classic Japanese Ramen", "ingredients": ["Ramen noodles", "Chicken", "Soy sauce", "Boiled egg", "Green onions"], "instructions": "Boil ramen noodles, prepare chicken broth, add boiled egg and green onions.", "time_to_prepare": "40 minutes", "calories": "450 kcal", "nutritional_facts": "Protein: 38g, Carbs: 55g, Fat: 12g" },
+    "Mexican_Diabetese": {
+"title": "Grilled Chicken Fajitas",
+"ingredients": ["Chicken breast", "Bell peppers", "Onions", "Olive oil", "Cumin"],
+"instructions": "Slice chicken and vegetables, sauté with olive oil and cumin, serve in lettuce wraps.",
+"time_to_prepare": "30 minutes",
+"calories": "320 kcal",
+"nutritional_facts": "Protein: 38g, Carbs: 10g, Fat: 8g"
+},
+"Mexican_Gluten free": {
+"title": "Gluten-Free Tacos",
+"ingredients": ["Corn tortillas", "Ground beef", "Tomatoes", "Lettuce", "Cheese"],
+"instructions": "Cook beef, assemble tacos with tomatoes, lettuce, and cheese in corn tortillas.",
+"time_to_prepare": "25 minutes",
+"calories": "350 kcal",
+"nutritional_facts": "Protein: 40g, Carbs: 30g, Fat: 12g"
+},
+"Mexican_Halal": {
+"title": "Halal Chicken Enchiladas",
+"ingredients": ["Halal-certified chicken", "Corn tortillas", "Cheese", "Tomato sauce", "Spices"],
+"instructions": "Shred chicken, mix with spices, wrap in tortillas, top with tomato sauce and cheese, bake.",
+"time_to_prepare": "40 minutes",
+"calories": "400 kcal",
+"nutritional_facts": "Protein: 45g, Carbs: 35g, Fat: 15g"
+},
+"Mexican_Keto": {
+"title": "Keto Avocado Chicken Salad",
+"ingredients": ["Grilled chicken", "Avocado", "Spinach", "Olive oil", "Lime"],
+"instructions": "Mix chopped chicken, avocado, spinach, and olive oil with lime juice.",
+"time_to_prepare": "20 minutes",
+"calories": "400 kcal",
+"nutritional_facts": "Protein: 35g, Carbs: 8g, Fat: 30g"
+},
+"Mexican_Kosher": {
+"title": "Kosher Beef Tostadas",
+"ingredients": ["Kosher ground beef", "Corn tortillas", "Black beans", "Tomatoes", "Lettuce"],
+"instructions": "Cook beef, mash beans, assemble tostadas with tomatoes and lettuce.",
+"time_to_prepare": "35 minutes",
+"calories": "380 kcal",
+"nutritional_facts": "Protein: 45g, Carbs: 20g, Fat: 12g"
+},
+"Mexican_Lactose Intolerance": {
+"title": "Dairy-Free Mexican Rice Bowl",
+"ingredients": ["Brown rice", "Black beans", "Tomatoes", "Onions", "Avocado"],
+"instructions": "Cook rice, mix with beans, tomatoes, and onions, top with avocado slices.",
+"time_to_prepare": "30 minutes",
+"calories": "320 kcal",
+"nutritional_facts": "Protein: 12g, Carbs: 45g, Fat: 8g"
+},
+"Mexican_Paleo": {
+"title": "Paleo Beef & Peppers",
+"ingredients": ["Grass-fed beef", "Bell peppers", "Garlic", "Olive oil", "Lime"],
+"instructions": "Sauté beef with garlic and olive oil, add bell peppers, squeeze lime juice before serving.",
+"time_to_prepare": "35 minutes",
+"calories": "400 kcal",
+"nutritional_facts": "Protein: 50g, Carbs: 12g, Fat: 15g"
+},
+"Mexican_Vegan": {
+"title": "Vegan Black Bean Chili",
+"ingredients": ["Black beans", "Tomatoes", "Onions", "Garlic", "Cumin"],
+"instructions": "Cook beans, blend with tomatoes, onions, and garlic, simmer until thick.",
+"time_to_prepare": "40 minutes",
+"calories": "290 kcal",
+"nutritional_facts": "Protein: 15g, Carbs: 40g, Fat: 6g"
+},
+"Mexican_Vegetarian": {
+"title": "Vegetarian Stuffed Peppers",
+"ingredients": ["Bell peppers", "Quinoa", "Black beans", "Tomatoes", "Olive oil"],
+"instructions": "Stuff bell peppers with quinoa and beans, bake until soft, drizzle with olive oil.",
+"time_to_prepare": "40 minutes",
+"calories": "350 kcal",
+"nutritional_facts": "Protein: 18g, Carbs: 45g, Fat: 8g"
+},
+"Mexican_None": {
+"title": "Classic Beef Burritos",
+"ingredients": ["Flour tortillas", "Ground beef", "Rice", "Beans", "Cheese"],
+"instructions": "Cook beef and rice, assemble burritos with beans and cheese, grill lightly.",
+"time_to_prepare": "35 minutes",
+"calories": "450 kcal",
+"nutritional_facts": "Protein: 40g, Carbs: 50g, Fat: 15g"
+},
+"Turkish_Diabetese": {
+"title": "Grilled Lamb with Roasted Vegetables",
+"ingredients": ["Lamb chops", "Zucchini", "Bell peppers", "Olive oil", "Garlic"],
+"instructions": "Marinate lamb in olive oil and garlic, grill until tender. Roast vegetables and serve together.",
+"time_to_prepare": "40 minutes",
+"calories": "350 kcal",
+"nutritional_facts": "Protein: 40g, Carbs: 10g, Fat: 18g"
+},
+"Turkish_Gluten free": {
+"title": "Gluten-Free Turkish Lentil Soup",
+"ingredients": ["Red lentils", "Carrots", "Onions", "Garlic", "Olive oil"],
+"instructions": "Cook lentils with carrots, onions, and garlic in olive oil, blend until smooth.",
+"time_to_prepare": "35 minutes",
+"calories": "320 kcal",
+"nutritional_facts": "Protein: 15g, Carbs: 35g, Fat: 7g"
+},
+"Turkish_Halal": {
+"title": "Halal Turkish Kebabs",
+"ingredients": ["Halal-certified beef", "Yogurt", "Garlic", "Turkish spices", "Olive oil"],
+"instructions": "Marinate beef in yogurt and spices, grill on skewers, serve hot.",
+"time_to_prepare": "45 minutes",
+"calories": "420 kcal",
+"nutritional_facts": "Protein: 50g, Carbs: 8g, Fat: 22g"
+},
+"Turkish_Keto": {
+"title": "Keto Turkish Eggplant Casserole",
+"ingredients": ["Eggplant", "Ground beef", "Tomato sauce", "Garlic", "Olive oil"],
+"instructions": "Layer eggplant with seasoned beef and tomato sauce, bake until tender.",
+"time_to_prepare": "50 minutes",
+"calories": "380 kcal",
+"nutritional_facts": "Protein: 45g, Carbs: 8g, Fat: 20g"
+},
+"Turkish_Kosher": {
+"title": "Kosher Turkish Chickpea Stew",
+"ingredients": ["Chickpeas", "Tomatoes", "Garlic", "Olive oil", "Turkish spices"],
+"instructions": "Cook chickpeas with tomatoes and garlic in olive oil, season with Turkish spices.",
+"time_to_prepare": "40 minutes",
+"calories": "350 kcal",
+"nutritional_facts": "Protein: 18g, Carbs: 40g, Fat: 10g"
+},
+"Turkish_Lactose Intolerance": {
+"title": "Dairy-Free Turkish Stuffed Peppers",
+"ingredients": ["Bell peppers", "Rice", "Tomatoes", "Onions", "Olive oil"],
+"instructions": "Stuff bell peppers with seasoned rice and tomatoes, bake until soft.",
+"time_to_prepare": "45 minutes",
+"calories": "340 kcal",
+"nutritional_facts": "Protein: 12g, Carbs: 45g, Fat: 8g"
+},
+"Turkish_Paleo": {
+"title": "Paleo Turkish Grilled Fish",
+"ingredients": ["Fish fillet", "Lemon", "Garlic", "Olive oil", "Turkish spices"],
+"instructions": "Season fish with garlic and spices, grill until flaky, squeeze lemon before serving.",
+"time_to_prepare": "30 minutes",
+"calories": "320 kcal",
+"nutritional_facts": "Protein: 40g, Carbs: 5g, Fat: 12g"
+},
+"Turkish_Vegan": {
+"title": "Vegan Turkish Lentil Patties",
+"ingredients": ["Lentils", "Onions", "Garlic", "Turkish spices", "Olive oil"],
+"instructions": "Mash lentils, mix with onions, garlic, and spices, shape into patties and bake.",
+"time_to_prepare": "40 minutes",
+"calories": "300 kcal",
+"nutritional_facts": "Protein: 15g, Carbs: 40g, Fat: 6g"
+},
+"Turkish_Vegetarian": {
+"title": "Vegetarian Turkish Bean Salad",
+"ingredients": ["White beans", "Tomatoes", "Cucumbers", "Olive oil", "Lemon"],
+"instructions": "Mix beans with chopped vegetables, drizzle with olive oil and lemon juice.",
+"time_to_prepare": "25 minutes",
+"calories": "280 kcal",
+"nutritional_facts": "Protein: 12g, Carbs: 35g, Fat: 8g"
+},
+"Turkish_None": {
+"title": "Classic Turkish Pide",
+"ingredients": ["Flour", "Ground beef", "Onions", "Turkish spices", "Cheese"],
+"instructions": "Prepare dough, fill with seasoned beef and cheese, bake until golden.",
+"time_to_prepare": "50 minutes",
+"calories": "450 kcal",
+"nutritional_facts": "Protein: 35g, Carbs: 60g, Fat: 18g"
+},
+"Thai_Diabetese": {
+"title": "Grilled Thai Chicken with Spicy Lime Dressing",
+"ingredients": ["Chicken breast", "Lime", "Garlic", "Thai chili", "Olive oil"],
+"instructions": "Marinate chicken with lime juice, garlic, and Thai chili. Grill until cooked. Serve with spicy lime dressing.",
+"time_to_prepare": "30 minutes",
+"calories": "320 kcal",
+"nutritional_facts": "Protein: 38g, Carbs: 8g, Fat: 12g"
+},
+"Thai_Gluten free": {
+"title": "Gluten-Free Thai Stir-Fried Vegetables",
+"ingredients": ["Broccoli", "Carrots", "Garlic", "Gluten-free soy sauce", "Sesame oil"],
+"instructions": "Sauté vegetables with garlic and gluten-free soy sauce, finish with sesame oil.",
+"time_to_prepare": "20 minutes",
+"calories": "250 kcal",
+"nutritional_facts": "Protein: 10g, Carbs: 30g, Fat: 6g"
+},
+"Thai_Halal": {
+"title": "Halal Thai Red Curry Chicken",
+"ingredients": ["Halal-certified chicken", "Coconut milk", "Thai curry paste", "Basil", "Garlic"],
+"instructions": "Cook chicken in coconut milk and curry paste, add basil and garlic, simmer until thick.",
+"time_to_prepare": "40 minutes",
+"calories": "400 kcal",
+"nutritional_facts": "Protein: 45g, Carbs: 12g, Fat: 20g"
+},
+"Thai_Keto": {
+"title": "Keto Thai Chicken Coconut Soup",
+"ingredients": ["Chicken", "Coconut milk", "Lime", "Lemongrass", "Thai chili"],
+"instructions": "Boil chicken in coconut milk, add lime, lemongrass, and Thai chili, simmer until flavored.",
+"time_to_prepare": "25 minutes",
+"calories": "350 kcal",
+"nutritional_facts": "Protein: 40g, Carbs: 5g, Fat: 18g"
+},
+"Thai_Kosher": {
+"title": "Kosher Thai Basil Beef",
+"ingredients": ["Kosher ground beef", "Thai basil", "Garlic", "Soy sauce", "Olive oil"],
+"instructions": "Cook beef with garlic, soy sauce, and Thai basil, serve hot.",
+"time_to_prepare": "30 minutes",
+"calories": "380 kcal",
+"nutritional_facts": "Protein: 45g, Carbs: 6g, Fat: 22g"
+},
+"Thai_Lactose Intolerance": {
+"title": "Dairy-Free Thai Green Curry",
+"ingredients": ["Coconut milk", "Mixed vegetables", "Thai green curry paste", "Garlic", "Ginger"],
+"instructions": "Cook vegetables in coconut milk and curry paste, add garlic and ginger, simmer until thick.",
+"time_to_prepare": "40 minutes",
+"calories": "320 kcal",
+"nutritional_facts": "Protein: 12g, Carbs: 35g, Fat: 10g"
+},
+"Thai_Paleo": {
+"title": "Paleo Thai Grilled Fish",
+"ingredients": ["Fish fillet", "Lemongrass", "Garlic", "Olive oil", "Thai spices"],
+"instructions": "Season fish with Thai spices and garlic, grill until flaky, serve with lemongrass sauce.",
+"time_to_prepare": "30 minutes",
+"calories": "320 kcal",
+"nutritional_facts": "Protein: 40g, Carbs: 5g, Fat: 12g"
+},
+"Thai_Vegan": {
+"title": "Vegan Thai Peanut Noodles",
+"ingredients": ["Rice noodles", "Peanut sauce", "Tofu", "Cilantro", "Carrots"],
+"instructions": "Cook noodles, toss with peanut sauce, add tofu and carrots, garnish with cilantro.",
+"time_to_prepare": "35 minutes",
+"calories": "290 kcal",
+"nutritional_facts": "Protein: 12g, Carbs: 45g, Fat: 8g"
+},
+"Thai_Vegetarian": {
+"title": "Vegetarian Thai Pad See Ew",
+"ingredients": ["Rice noodles", "Eggs", "Broccoli", "Soy sauce", "Garlic"],
+"instructions": "Cook noodles, scramble eggs, add soy sauce and garlic, mix with broccoli and serve.",
+"time_to_prepare": "30 minutes",
+"calories": "350 kcal",
+"nutritional_facts": "Protein: 18g, Carbs: 45g, Fat: 10g"
+},
+"Thai_None": {
+"title": "Classic Thai Pad Thai",
+"ingredients": ["Rice noodles", "Shrimp", "Eggs", "Peanuts", "Soy sauce"],
+"instructions": "Cook noodles, scramble eggs, sauté shrimp, mix with peanuts and soy sauce.",
+"time_to_prepare": "35 minutes",
+"calories": "450 kcal",
+"nutritional_facts": "Protein: 38g, Carbs: 55g, Fat: 12g"
+},
+    
+    
