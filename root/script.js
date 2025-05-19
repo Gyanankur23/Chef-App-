@@ -3,7 +3,7 @@ function generateRecipe() {
     const diet = document.getElementById("diet").value;
     const recipeKey = `${cuisine}_${diet}`; // Match keys in recipes.json
 
-  fetch("./recipes.json") // Relative path based on your file structure// Updated path for correct fetching
+  fetch("/recipes.json") // Relative path based on your file structure// Updated path for correct fetching
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! Status: ${response.status}`);
