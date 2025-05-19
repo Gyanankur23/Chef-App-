@@ -3,8 +3,13 @@ function generateRecipe() {
     const diet = document.getElementById("diet").value;
     const recipeKey = `${cuisine}_${diet}`; // Match keys in recipes.json
 
-    fetch("/recipes.json") // Load JSON file
-        .then(response => response.json())
+    fetch("/root/recipes.json") // Updated path for correct fetching
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            return response.json();
+        })
         .then(data => {
             const recipe = data.recipes[recipeKey];
 
@@ -18,11 +23,11 @@ function generateRecipe() {
                     <p><strong>Nutritional Facts:</strong> ${recipe.nutritional_facts}</p>
                 `;
             } else {
-                document.getElementById("recipe-output").innerText = "No recipe found for this selection.";
+                document.getElementById("recipe-output").innerHTML = `<p style="color: red;">No recipe found for this selection.</p>`;
             }
         })
         .catch(error => {
             console.error("Error fetching recipes:", error);
-            document.getElementById("recipe-output").innerText = "Error loading recipes.";
+            document.getElementById("recipe-output").innerHTML = `<p style="color: red;">Error loading recipes. Please check JSON file or path.</p>`;
         });
 }
