@@ -4,24 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chef AI - Recipe Generator</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 20px;
-        }
-        select, button {
-            padding: 10px;
-            margin: 10px;
-            font-size: 16px;
-        }
-        #recipe-output {
-            margin-top: 20px;
-            padding: 15px;
-            border: 1px solid #ccc;
-            background-color: #f9f9f9;
-        }
-    </style>
+    <link rel="stylesheet" href="/root/styles.css"> <!-- Corrected CSS path -->
 </head>
 <body>
 
@@ -61,36 +44,7 @@
         <p>Select options above and click "Get Recipe"</p>
     </div>
 
-    <script>
-        function generateRecipe() {
-            const cuisine = document.getElementById("cuisine").value;
-            const diet = document.getElementById("diet").value;
-            const recipeKey = `${cuisine}_${diet}`;
-
-            fetch("/root/recipes.json") // Adjusted path for correct fetching
-                .then(response => response.json())
-                .then(data => {
-                    const recipe = data.recipes[recipeKey];
-
-                    if (recipe) {
-                        document.getElementById("recipe-output").innerHTML = `
-                            <h2>${recipe.title}</h2>
-                            <p><strong>Ingredients:</strong> ${recipe.ingredients.join(", ")}</p>
-                            <p><strong>Instructions:</strong> ${recipe.instructions}</p>
-                            <p><strong>Time to Prepare:</strong> ${recipe.time_to_prepare}</p>
-                            <p><strong>Calories:</strong> ${recipe.calories}</p>
-                            <p><strong>Nutritional Facts:</strong> ${recipe.nutritional_facts}</p>
-                        `;
-                    } else {
-                        document.getElementById("recipe-output").innerHTML = "<p>No recipe found for this selection.</p>";
-                    }
-                })
-                .catch(error => {
-                    console.error("Error fetching recipes:", error);
-                    document.getElementById("recipe-output").innerHTML = "<p>Error loading recipes.</p>";
-                });
-        }
-    </script>
+    <script src="/root/script.js"></script> <!-- Updated JS path -->
 
 </body>
 </html>
