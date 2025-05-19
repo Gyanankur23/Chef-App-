@@ -1,80 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>AI Chef</title>
-  <link rel="stylesheet" href="/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef AI - Recipe Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        select, button {
+            padding: 10px;
+            margin: 10px;
+            font-size: 16px;
+        }
+        #recipe-output {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>AI Chef</h1>
-  </header>
-  <nav>
-    <!-- You can add navigation items here if needed -->
-    <span>Home</span>
-  </nav>
-  <main>
-    <form id="chef-form" onsubmit="event.preventDefault(); generateRecipe();">
-      <div>
-        <label for="cuisine">Cuisine:</label>
-        <select id="cuisine" name="cuisine" required>
-          <option value="American">American</option>
-          <option value="Chinese">Chinese</option>
-          <option value="French">French</option>
-          <option value="Indian">Indian</option>
-          <option value="Italian">Italian</option>
-          <option value="Japanese">Japanese</option>
-          <option value="Mexican">Mexican</option>
-          <option value="Turkish">Turkish</option>
-        </select>
-      </div>
-      <div>
-        <label for="diet">Dietary Preference:</label>
-        <select id="diet" name="diet" required>
-          <option value="Diabetese">Diabetese</option>
-          <option value="Gluten free">Gluten free</option>
-          <option value="Halal">Halal</option>
-          <option value="Keto">Keto</option>
-          <option value="Kosher">Kosher</option>
-          <option value="Lactose Intolerance">Lactose Intolerance</option>
-          <option value="Paleo">Paleo</option>
-          <option value="Vegan">Vegan</option>
-          <option value="Vegetarian">Vegetarian</option>
-          <option value="None">None</option>
-        </select>
-      </div>
-      <div>
-        <label for="allergy">Food Allergy:</label>
-        <input type="text" id="allergy" name="allergy" value="peanuts" required>
-      </div>
-      <div>
-        <label for="ingredient_1">Ingredient 1:</label>
-        <input type="text" id="ingredient_1" name="ingredient_1" value="ahi tuna" required>
-      </div>
-      <div>
-        <label for="ingredient_2">Ingredient 2:</label>
-        <input type="text" id="ingredient_2" name="ingredient_2" value="chicken breast" required>
-      </div>
-      <div>
-        <label for="ingredient_3">Ingredient 3:</label>
-        <input type="text" id="ingredient_3" name="ingredient_3" value="tofu" required>
-      </div>
-      <div>
-        <label for="wine">Wine Preference:</label>
-        <select id="wine" name="wine" required>
-          <option value="Red">Red</option>
-          <option value="White">White</option>
-          <option value="None">None</option>
-        </select>
-      </div>
-      <div>
-        <button type="submit">Generate Recipe</button>
-      </div>
-    </form>
-    <section id="recipe-output">
-      <!-- The generated recipe will appear here -->
-    </section>
-  </main>
-  <script src="/script.js"></script>
+
+    <h1>Chef AI - Recipe Generator</h1>
+
+    <label for="cuisine">Choose Cuisine:</label>
+    <select id="cuisine">
+        <option value="American">American</option>
+        <option value="Chinese">Chinese</option>
+        <option value="French">French</option>
+        <option value="Indian">Indian</option>
+        <option value="Italian">Italian</option>
+        <option value="Japanese">Japanese</option>
+        <option value="Mexican">Mexican</option>
+        <option value="Turkish">Turkish</option>
+        <option value="Thai">Thai</option>
+    </select>
+
+    <label for="diet">Choose Dietary Preference:</label>
+    <select id="diet">
+        <option value="Diabetese">Diabetes-friendly</option>
+        <option value="Gluten free">Gluten-free</option>
+        <option value="Halal">Halal</option>
+        <option value="Keto">Keto</option>
+        <option value="Kosher">Kosher</option>
+        <option value="Lactose Intolerance">Lactose Intolerance</option>
+        <option value="Paleo">Paleo</option>
+        <option value="Vegan">Vegan</option>
+        <option value="Vegetarian">Vegetarian</option>
+        <option value="None">None</option>
+    </select>
+
+    <button onclick="generateRecipe()">Get Recipe</button>
+
+    <div id="recipe-output">
+        <h2>Recipe Will Appear Here</h2>
+        <p>Select options above and click "Get Recipe"</p>
+    </div>
+
+    <script>
+        function generateRecipe() {
+            const cuisine = document.getElementById("cuisine").value;
+            const diet = document.getElementById("diet").value;
+            const recipeKey = `${cuisine}_${diet}`;
+
+            fetch("recipes.json")
+                .then(response => response.json())
+                .then(data => {
+                    const recipe = data.recipes[recipeKey];
+
+                    if (recipe) {
+                        document.getElementById("recipe-output").innerHTML = `
+                            <h2>${recipe.title}</h2>
+                            <p><strong>Ingredients:</strong> ${recipe.ingredients.join(", ")}</p>
+                            <p><strong>Instructions:</strong> ${recipe.instructions}</p>
+                            <p><strong>Time to Prepare:</strong> ${recipe.time_to_prepare}</p>
+                            <p><strong>Calories:</strong> ${recipe.calories}</p>
+                            <p><strong>Nutritional Facts:</strong> ${recipe.nutritional_facts}</p>
+                        `;
+                    } else {
+                        document.getElementById("recipe-output").innerHTML = "<p>No recipe found for this selection.</p>";
+                    }
+                })
+                .catch(error => {
+                    console.error("Error fetching recipes:", error);
+                    document.getElementById("recipe-output").innerHTML = "<p>Error loading recipes.</p>";
+                });
+        }
+    </script>
+
 </body>
 </html>
